@@ -1,0 +1,27 @@
+{
+  "name": "labs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "highlight.js": "^9.8.0",
+    "history": "^4.6.3",
+    "json-loader": "^0.5.4",
+    "marked": "^0.3.5",
+    "material-ui": "stable",
+    "material-ui-persian-date-picker-utils": "^0.0.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-title-component": "^1.0.1",
+    "remarkable": "^1.7.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
