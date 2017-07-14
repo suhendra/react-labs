@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import SearchableProductList from './SearchableProductList';
+import TemperaturCalculator from './TemperaturCalculator';
 
 class App extends Component {
   render() {
     return (
-        <SearchableProductList />
+        <TemperaturCalculator />
     );
   }
 }
