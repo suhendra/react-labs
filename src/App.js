@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBarBasic from './AppBarBasic';
+import SearchableProductList from './SearchableProductList';
 
 class App extends Component {
   render() {
     return (
-      <MuiThemeProvider>
-        <AppBarBasic />
-      </MuiThemeProvider>
+        <SearchableProductList />
     );
   }
 }
