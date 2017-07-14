@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import TemperaturCalculator from './TemperaturCalculator';
+import Suhu from './Suhu';
 
 class App extends Component {
   render() {
     return (
-        <TemperaturCalculator />
+        <Suhu />
     );
   }
 }
